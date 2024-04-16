@@ -15,7 +15,7 @@ public class OnlinePurchaseManager
      for(Gizmo g : purchases) {
        if (g.getMaker().equals(maker) && g.isElectronic()) {
          num++;
-           }
+       }
      }
       return num;
   }
